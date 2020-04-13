@@ -1,0 +1,39 @@
+@import "../../assets/styles/Helpers/variable.scss";
+.header{
+    background-color: #4E2A84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    .header__logo{
+        color: white;
+        font-size: 2.5rem;
+        text-decoration: none;
+        font-weight: 500;
+        margin-right: 10%;
+        // order:2;
+    }
+    .header__nav{
+        // order:1;
+        ul{
+            list-style: none;
+            margin: 0;
+            li{
+                
+                display: inline;
+                a{color: white;
+                    font-size: 0.8rem;
+                    text-decoration: none;
+                    font-weight: 500;
+                    margin: 0 0.7rem;
+                    &:hover {
+                        color: #FF0E83;
+                        
+                    }
+                }
+               
+            }
+        }
+
+    }
+}

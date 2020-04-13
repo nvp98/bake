@@ -1,0 +1,34 @@
+@import "../../../assets/styles/Helpers/variable.scss";
+.carousel{
+    height: 35rem;
+    background-image: url(../../../assets/image/b3.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    .carousel__content{
+        width: 100%;
+        text-align: center;
+        color: white;
+        h1{
+            font-size: 3rem;
+            font-weight: 500;
+            word-spacing: 0.4rem;
+            margin-bottom: 0;
+        }
+        p{
+            margin-top: 1rem;
+            margin-bottom: 0.8rem;
+            font-size: 1rem;
+            color: rbg(221,221,221);
+        }
+        .btn_pink{
+            background-color: #ff0c82;
+            padding: 0.5rem 1rem;
+            border: 1px solid rbg(221,221,221);
+            color: white;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            border-radius: 3px;
+        }
+    }
+}

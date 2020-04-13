@@ -1,0 +1,37 @@
+@import "../../../assets/styles/Helpers/variable.scss";
+.video{
+    padding: 0 15%;
+    .statistic{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin: 4rem 0;
+        .statistic__item{
+            text-align: center;
+            h2{
+                font-size: 1.5rem;
+                color: #4e2a84;
+                margin-top: 0;
+                margin-bottom: 1.5rem;
+            }
+            p{
+                font-size: 1rem;
+                color: black;
+                margin: 0;
+            }
+        }
+    }
+    .video__content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 1.5rem;
+        .video__content__right iframe{
+            width: 100%;
+            height: 20rem;
+        }
+        .video__content__left video{
+            width: 100%;
+            height: 20.5rem;
+            transform: translateY(-0.5rem);
+        }
+    }
+}

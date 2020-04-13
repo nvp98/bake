@@ -1,0 +1,49 @@
+@import "../../../assets/styles/Helpers/variable.scss";
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .intro__item{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: white;
+        img{
+            max-width: 100%;
+            display: block;
+        }
+        h2{
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        p{
+            font-size: 0.7rem;
+            padding: 0 2rem;
+            line-height: 1.5rem;
+        }
+    }
+    .intro__tradition{
+        background-color: #4e2a84;
+    }
+    .intro__creativity{
+        background-color: #ff0e83;
+    }
+    .intro__quality{
+        background-color: #836eaa;
+    }
+    .intro__cakes{
+        background-color: #4e2a84;
+    }
+    .intro__things{
+        background-color: #ed6498;
+        grid-column: 1 / span 2;
+    }
+    .intro__img-1{
+        grid-column: 2 / span 2;
+    }
+    .intro__img-3{
+        background-color: #4e2a84;
+    }
+    .intro__img-4{
+        grid-column: 3 / span 2;
+    }
+}
